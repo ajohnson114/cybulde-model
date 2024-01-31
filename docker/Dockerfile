@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64 python:3.10-slim
+FROM python:3.10-slim
 
 ARG USER_ID
 ARG USER_NAME
@@ -7,7 +7,7 @@ ENV HOME=/home/${USER_NAME} \
 ENV \
   PYTHONUNBUFFERED=1 \
   DEBIAN_FRONTEND=noninteractive \
-  TZ=Europe/Warsaw \
+  TZ=America/New_York \
   PATH="/usr/local/gcloud/google-cloud-sdk/bin:${HOME}/.local/bin:${VIRTUAL_ENV}/bin:${PATH}" \
   PYTHONPATH="/app:${PYTHONPATH}" \
   BUILD_POETRY_LOCK="${HOME}/poetry.lock.build"
@@ -26,9 +26,9 @@ RUN addgroup --system --gid ${USER_ID} ${USER_NAME} \
     && useradd --system -m --no-log-init --home-dir ${HOME} --uid ${USER_ID} --gid ${USER_NAME} --groups ${USER_NAME} ${USER_NAME}
 
 RUN chown -R ${USER_NAME}:${USER_NAME} ${HOME}
-RUN mkdir -p /app && chown -R ${USER_NAME}:${USER_NAME} /app /tmp
+RUN mkdir -p /app /mlflow-artifact-store "${HOME}/.local/share" && chown -R ${USER_NAME}:${USER_NAME} /app /tmp /mlflow-artifact-store "${HOME}/.local"
 
-RUN curl -sSL https://install.python-poetry.org | python3 - --version 1.4.2
+RUN curl -sSL https://install.python-poetry.org | python3 - --version 1.7.1
 
 USER ${USER_NAME}
 
