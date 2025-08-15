@@ -6,13 +6,13 @@ As a brief summary, the project is an end to end cyber bullying detection machin
 
 I made this a long time ago and forgot some of the context about it truthfully but can look into any questions I may get about it. Thanks for checking it out!
 
-This is a diagram of how the distributed model training happened:
+This is a systems design diagram of how the distributed model training happened:
 
 <img width="394" height="458" alt="Screenshot 2025-08-14 at 9 00 53 PM" src="https://github.com/user-attachments/assets/759ef42c-481a-45c8-9622-c7f7301e1501" />
 
-This is a diagram of how the distributed data preprocessing happened:
+This is a systems design diagram of how the distributed data preprocessing happened:
 
-<img width="474" height="523" alt="Screenshot 2025-08-14 at 9 23 24 PM" src="https://github.com/user-attachments/assets/6bba233d-2ba5-4697-857d-63c0d4d5ca0b" />
+<img width="465" height="510" alt="Screenshot 2025-08-14 at 9 38 58 PM" src="https://github.com/user-attachments/assets/30fa87cf-57a9-4f81-b7c1-dd70e7ea5cae" />
 
 These are photos of the distributed data preprocessing happening:
 
