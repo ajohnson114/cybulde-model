@@ -1,7 +1,5 @@
 # Cyberbullying detection project
 
-Hi! Thanks for taking a look at my project! I just finished making it, and will have a more detailed write up here in the upcoming days. This is just the section with the model training and creation of gcp instance groups for distributed and parallelized training if you'd like to see the other repos just let me know and I can make those public. I'm attaching the relevant screenshots here though
-
 As a brief summary, the project is an end to end cyber bullying detection machine learning project that uses GCP for a lot of things (PostgresSQL backend, VMs to prepare the data, VMs to train the model). It was an interesting experience for me to build and I think I learned a lot about software engineering and machine learning engineering as well.
 
 I made this a long time ago and forgot some of the context about it truthfully but can look into any questions I may get about it. Thanks for checking it out!
