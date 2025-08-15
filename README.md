@@ -8,7 +8,7 @@ I made this a long time ago and forgot some of the context about it truthfully b
 
 This is a systems design diagram of how the distributed model training happened:
 
-<img width="394" height="458" alt="Screenshot 2025-08-14 at 9 00 53 PM" src="https://github.com/user-attachments/assets/759ef42c-481a-45c8-9622-c7f7301e1501" />
+<img width="410" height="472" alt="Screenshot 2025-08-14 at 9 51 36 PM" src="https://github.com/user-attachments/assets/92d1fc3a-2ebf-4190-9199-441955042240" />
 
 This is a systems design diagram of how the distributed data preprocessing happened:
 
