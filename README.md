@@ -10,7 +10,7 @@ This is a systems design diagram of how the distributed model training happened:
 
 This is a systems design diagram of how the distributed data preprocessing happened:
 
-<img width="465" height="510" alt="Screenshot 2025-08-14 at 9 38 58 PM" src="https://github.com/user-attachments/assets/30fa87cf-57a9-4f81-b7c1-dd70e7ea5cae" />
+<img width="464" height="522" alt="Screenshot 2025-08-15 at 11 59 02 AM" src="https://github.com/user-attachments/assets/1c7909ca-1fa8-4ffe-b132-b4c749264ea0" />
 
 These are photos of the distributed data preprocessing happening:
 
