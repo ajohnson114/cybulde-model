@@ -56,5 +56,5 @@ else
 
 fi
 
-# echo "============= Cleaning up ==============="
-# gcloud compute instance-groups managed delete --quiet "${INSTANCE_GROUP_NAME}" --zone "${ZONE}"
+echo "============= Cleaning up ==============="
+gcloud compute instance-groups managed delete --quiet "${INSTANCE_GROUP_NAME}" --zone "${ZONE}"

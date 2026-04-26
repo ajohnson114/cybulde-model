@@ -9,7 +9,7 @@ from cybulde.infrastructure.instance_template_creator import VMType
 @dataclass
 class BootDiskConfig:
     project_id: str = "deeplearning-platform-release"
-    name: str = "common-cu113-v20230925"
+    name: str = "common-cu121-v20240128"
     size_gb: int = 50
     labels: Any = SI("${..labels}")
 

@@ -164,4 +164,4 @@ def cls_pool_tokens(tensor: Tensor) -> Tensor:
     dims = len(tensor.shape)
     if dims != 3:
         raise ValueError(f"Tokens pooling expects exactly 3 dimensional tensor got: {dims}")
-    return torch[:,0,:]
+    return tensor[:, 0, :]
